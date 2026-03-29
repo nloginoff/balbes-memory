@@ -1,0 +1,15 @@
+# Coder agent runtime configuration
+# This file can be read/updated via: workspace_read("config.yaml") / workspace_write("config.yaml")
+# Changes take effect immediately (no restart needed).
+# Overrides global settings in config/providers.yaml.
+
+# Default model for coder tasks (used for both direct chat and delegations)
+default_model: "openrouter/moonshotai/kimi-k2.5"
+
+# Fallback behavior: if false, show exact API error on failure
+fallback_enabled: false
+
+# Token budget (coder needs more for large codebases)
+token_limits:
+  daily: 200000
+  hourly: 30000

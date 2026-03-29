@@ -1,0 +1,15 @@
+# Orchestrator agent runtime configuration
+# This file can be read/updated via: workspace_read("config.yaml") / workspace_write("config.yaml")
+# Changes take effect immediately (no restart needed).
+# Overrides global settings in config/providers.yaml.
+
+# Default model for this agent (null = use chat's selected model)
+default_model: null
+
+# Fallback behavior: if false, show exact API error on failure
+fallback_enabled: false
+
+# Token budget
+token_limits:
+  daily: 100000
+  hourly: 15000

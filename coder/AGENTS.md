@@ -26,15 +26,6 @@ You are frequently activated by the Orchestrator via the `delegate_to_agent` mec
 - For multi-step changes: execute each step, check the output, then proceed
 - Always verify that code runs before reporting success (run it if possible)
 
-## Running Git Commands in Specific Directories
-**IMPORTANT:** `cd /path && git command` is NOT whitelisted. Use `git -C /path command` instead:
-- ✅ `git -C /home/balbes/projects/dev status`
-- ✅ `git -C /home/balbes/projects/dev log --oneline -10`
-- ✅ `git -C /home/balbes/projects/dev add .`
-- ✅ `git -C /home/balbes/projects/dev commit -m "message"`
-- ❌ `cd /home/balbes/projects/dev && git status` — NOT ALLOWED (compound commands blocked)
-
-Similarly for Python: use full paths or `-C` equivalents, never `cd path && command`.
 
 ## Output Format
 - Use markdown code blocks with the correct language tag
