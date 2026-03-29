@@ -12,4 +12,6 @@ The agent can update this file using workspace_write when asked by the user.
 - [2024-03-28 14:43] Выпить воды
 
 ## Notes
-(Add important facts here as you learn them)
+- Reminder format: [YYYY-MM-DD HH:MM] text. No relative time allowed.
+- Agent can orchestrate other agents (Coder, Researcher, etc.)
+- Default logs: show agent tool call logs via read_agent_logs()
