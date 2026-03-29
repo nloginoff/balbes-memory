@@ -10,6 +10,7 @@ The agent can update this file using workspace_write when asked by the user.
 
 ## Reminders
 - [2024-03-28 14:43] Выпить воды
+- [2026-03-29 16:32] Выпить воды
 
 ## Notes
 - Reminder format: [YYYY-MM-DD HH:MM] text. No relative time allowed.
