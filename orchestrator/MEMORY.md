@@ -9,6 +9,7 @@ The agent can update this file using workspace_write when asked by the user.
 - Primary stack: Python, FastAPI, Redis, Qdrant, PostgreSQL, Docker
 
 ## Reminders
+- [2024-03-28 14:43] Выпить воды
 
 ## Notes
 (Add important facts here as you learn them)
