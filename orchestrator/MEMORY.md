@@ -8,10 +8,6 @@ The agent can update this file using workspace_write when asked by the user.
 - Environment: VPS server, Linux
 - Primary stack: Python, FastAPI, Redis, Qdrant, PostgreSQL, Docker
 
-## Reminders
-- [2024-03-28 14:43] Выпить воды
-- [2026-03-29 16:32] Выпить воды
-
 ## Notes
 - Reminder format: [YYYY-MM-DD HH:MM] text. No relative time allowed.
 - Agent can orchestrate other agents (Coder, Researcher, etc.)
