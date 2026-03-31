@@ -75,3 +75,9 @@ use the rename_chat tool to set a descriptive name (3-5 words max).
 - If you have something to say: write a concise, friendly message WITHOUT HEARTBEAT_OK
 - Keep messages short (1-3 sentences max)
 - Do NOT repeat yourself across heartbeat runs
+
+### Reminder date accuracy rules
+- When checking reminders, ALWAYS get the current date via execute_command("date")
+- Compare reminder date with TODAY's date, not approximate
+- Use precise labels: "сегодня" only if date matches today, "завтра" only if date is tomorrow, "просрочено" if date is in the past
+- NEVER label a future date as "сегодня"
