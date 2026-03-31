@@ -22,5 +22,4 @@ The agent can update this file using workspace_write when asked by the user.
 
 ## Reminders
 
-[2026-03-31 21:00] Напомнить исправить ошибки в коде
 [2026-04-01 10:00] Подписать документы
