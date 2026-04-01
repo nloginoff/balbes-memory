@@ -23,4 +23,4 @@ The agent can update this file using workspace_write when asked by the user.
 
 ## Reminders
 
-[2026-04-01 10:00] Подписать документы
+(нет активных напоминаний)
